@@ -7,6 +7,8 @@ import {therapy} from "../../link_JSON"
 import {periodontology} from "../../link_JSON"
 import {surgery} from "../../link_JSON"
 import {prosthesis} from "../../link_JSON"
+import {ourTeam} from "../../link_JSON"
+import {socials} from "../../svg/socialicons";
 
 import girl1 from "../../images/girl1.png"
 import backimg1 from "../../images/backimg1.png"
@@ -19,6 +21,9 @@ import aptechka from "../../images/aptechkaicon.png"
 import calendar from "../../images/calendaricon.png"
 import doctorimg from "../../images/doctorimg.png"
 import therapyicon from "../../images/dental-care.png"
+
+
+
 
 
 function SampleNextArrow(props) {
@@ -48,9 +53,11 @@ export default function Home () {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        adaptiveHeight: true,
+        initialSlide: 1,
         autoplay: true,
-        speed: 500,
-        autoplaySpeed: 4000,
+        speed: 400,
+        autoplaySpeed: 10000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
@@ -61,7 +68,8 @@ export default function Home () {
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: true,
+                speed: 300,
               }
             },
             {
@@ -69,39 +77,8 @@ export default function Home () {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                initialSlide: 1
-              }
-            },
-          ]
-    };
-
-    const settings1 = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 500,
-        autoplaySpeed: 4000,
-        cssEase: "linear",
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
-        responsive: [
-            {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-              }
-            },
-            {
-              breakpoint: 620,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                initialSlide: 1
+                initialSlide: 1,
+                speed: 200,
               }
             },
           ]
@@ -128,7 +105,7 @@ export default function Home () {
                         health services that <br/> will make you feel confident and 
                         safe in your daily life.
                     </p>
-                    <span className="phone-icon"><FcCellPhone/>+998 94 234 19 45</span>
+                    <span className="phone-icon"><FcCellPhone/><a href="tel:+998942341945"> +998 94 234 19 45</a></span>
                     <div className="bigconnecting">CONTACT NOW</div>
                 </div>
                 <div className="partriet">
@@ -203,6 +180,7 @@ export default function Home () {
                         <span><img src={therapyicon} alt=""/>THERAPY</span>
                         <Slider {...settings}>
                             {therapy.map(item => {
+
                                 return(
                                     <div className="card-service">
                                         <div className="img" style={{"background-image": `url(${item.img})`}}></div>
@@ -217,7 +195,7 @@ export default function Home () {
                     </div>
                     <div className="type">
                         <span><img src={therapyicon} alt=""/>PERIODONTOLOGY</span>
-                        <Slider {...settings1}>
+                        <Slider {...settings}>
                             {periodontology.map(item => {
                                 return(
                                     <div className="card-service">
@@ -265,6 +243,35 @@ export default function Home () {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="our-team">
+            <h2>Our Team Doctors</h2>
+            <p>Our online doctors have an average of 15 years experience and a 98% satisfaction rating, they really set us apart!</p>
+            <div className="doctors">
+                {
+                    ourTeam.map( item => {
+                        return(
+                            <>
+                                <div className="doctor">
+                                    <div className="img" style={{"backgroundImage": `url(${item.img})`}}></div>
+                                    <h4>{item.name}</h4>
+                                    <p>{item.specialty}</p>
+                                    {
+                                        item.addresses.length <= 0  ?  null :
+                                         <div> 
+                                            {
+                                                item.addresses.map( icon => socials[icon.type] ? socials[icon.type] : null)
+                                            }
+                                         </div>
+                                    }
+                                </div>
+                            </>
+                        )
+                    })
+                }
+                
+            </div>
+            <span>See All Doctors</span>
         </div>
         </>
     )
