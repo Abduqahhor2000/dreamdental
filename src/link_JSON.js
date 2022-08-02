@@ -16,93 +16,93 @@ import commenter3 from "./images/commenter3.jpg"
 
 export const therapy = [
     {
-        title: "Endadontik Davolash",
+        title: "Endodontic treatment",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
         img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Treatment of dental defects",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://eastrosedental.com/Data/cavities-kid.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Teeth whitening",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.news-medical.net/image.axd?picture=2021%2F4%2Fshutterstock_56198956.jpg",
     },
     
 ]
 
 export const periodontology = [
     {
-        title: "Endadontik Davolash",
+        title: "Remove tooth residue",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.functionalaestheticdentistry.com/wp-content/uploads/2020/10/Tooth-Extraction-and-Post-Recovery.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Periodontal pockets",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.deardoctor.com/images/ddwc/features/understanding-periodontal-pockets/health-vs-disease-periodontal-pocket.jpg",
     },
 ]
 
 export const surgery = [
     {
-        title: "Endadontik Davolash",
+        title: "Tooth extraction",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://post.healthline.com/wp-content/uploads/2020/09/4209-woman_at_the_dentist_tooth_extration-732x549-thumbnail-1-732x549.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Open the tooth abscess",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.smilesbydrdonan.com/wp-content/uploads/2017/09/abscess-front-baby-teeth.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Restoration of teeth",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.monroeandmonroe.com/wp-content/uploads/2021/07/3-Types-of-Dental-Implants-scaled.jpeg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Gingivotomy",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.coleperiodontics.com/files/2011/10/IMG_8948-1024x631.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Stretching teeth",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.thantakit.com/wp-content/uploads/2020/03/ing_19047_01455.jpeg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Growing dental bones",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://desertmaxillofacial.com/wp-content/uploads/2016/03/shutterstock_278526416.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Implantation",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.barkoffdental.com/wp-content/uploads/dental-implants-1.jpg",
     },
 ]
 export const prosthesis = [
     {
-        title: "Endadontik Davolash",
+        title: "Temporary dental prostheses",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.conceptdentaire.com/wp-content/uploads/2015/05/prothese-dentaire-amovible-1024x619.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Metal ceramic prosthesis",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://prisma13.com/en/wp-content/uploads/metallokeramika_2_0_1.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Zirconium prosthesis",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://www.missionimplantcenter.com/wp-content/uploads/2020/01/What-are-Zirconia-Implants.jpg",
     },
     {
-        title: "Endadontik Davolash",
+        title: "Solid cast prosthesis",
         info: "Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.",
-        img: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGVudGlzdHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        img: "https://rectordentalgroup.com/wp-content/uploads/sites/42/2019/05/dental-crown.jpg",
     },
 ]
 
